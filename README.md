@@ -20,15 +20,20 @@ KiraSay is a small, playful command-line program inspired by `cowsay` that print
 
 ## Installation
 
+The package is available on the AUR as `kirasay` for Arch Linux (btw) users.
+```bash
+yay -S kirasay
+```
+
 There are a few easy ways to install and run `kirasay`.
 
 1. Run in-place (no install):
-```
+```bash
 ./kirasay "Hello from Kira!"
 ```
 
 2. Make the script executable and move to a directory in your `PATH`:
-```
+```bash
 chmod +x kirasay
 sudo cp kirasay /usr/local/bin/kirasay
 ```
@@ -39,7 +44,7 @@ sudo cp kirasay /usr/local/bin/kirasay
 - `make release` — create a tarball release
 
 Example:
-```
+```bash
 make install PREFIX=/usr/local
 ```
 
